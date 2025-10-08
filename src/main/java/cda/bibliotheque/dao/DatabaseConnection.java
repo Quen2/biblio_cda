@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DatabaseConnection {
-    private static final String URL = "jdbc:mysql://localhost:3306/bibliotheque_cda2025";
+    private static final String URL = "jdbc:mysql://localhost:3306/bibliotheque";
     // private static final String URL = "jdbc:postgresql://localhost:3306/bibliotheque_cda2025";
     private static final String USER = "root";
     private static final String PASSWORD = "";
