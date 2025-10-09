@@ -2,7 +2,6 @@ package cda.bibliotheque.controller.Customer;
 
 import java.io.IOException;
 
-import cda.bibliotheque.controller.Author.EditAuthorController;
 import cda.bibliotheque.dao.CustomerDAO;
 import cda.bibliotheque.model.Customer;
 import javafx.beans.property.ObjectProperty;
