@@ -98,4 +98,9 @@ public class ReadBookController {
         App.setRoot("books/create-book");
     }
 
+    @FXML
+    void backToHomepage(ActionEvent event) throws IOException {
+        App.setRoot("primary");
+    }
+
 }

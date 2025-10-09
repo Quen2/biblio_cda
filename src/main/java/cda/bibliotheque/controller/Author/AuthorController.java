@@ -103,8 +103,8 @@ public class AuthorController {
     }
 
     @FXML
-    private void switchToBooks() throws IOException {
-        App.setRoot("books/books");
+    void backToHomepage(ActionEvent event) throws IOException {
+        App.setRoot("primary");
     }
 
 }

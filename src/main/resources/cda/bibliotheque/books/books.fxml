@@ -4,6 +4,7 @@
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cda.bibliotheque.controller.Book.ReadBookController">
    <children>
@@ -18,6 +19,14 @@
             <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
          </columnResizePolicy>
       </TableView>
-      <Button layoutX="524.0" layoutY="30.0" mnemonicParsing="false" onAction="#SwitchToCreate" text="Ajouter" />
+      <Button layoutX="524.0" layoutY="30.0" mnemonicParsing="false" onAction="#SwitchToCreate" style="-fx-background-color: #4C7EA1;" text="Ajouter" textFill="WHITE">
+         <font>
+            <Font name="Bookman Old Style" size="12.0" />
+         </font></Button>
+      <Button layoutX="22.0" layoutY="30.0" mnemonicParsing="false" onAction="#backToHomepage" style="-fx-background-color: #4C7EA1;" text="Retour" textFill="WHITE">
+         <font>
+            <Font name="Bookman Old Style" size="12.0" />
+         </font>
+      </Button>
    </children>
 </Pane>
