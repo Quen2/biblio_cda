@@ -18,6 +18,13 @@ public class Book {
         this.isAvailable = isAvailable;
     }
 
+    public Book (int id, String title, java.sql.Date date, boolean isAvailable) {
+        this.id = id;
+        this.title = title;
+        this.date = date.toLocalDate();
+        this.isAvailable = isAvailable;
+    }
+
     public int getId () {
         return id;
     }
