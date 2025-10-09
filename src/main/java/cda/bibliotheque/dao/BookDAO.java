@@ -41,7 +41,7 @@ public class BookDAO {
         try (PreparedStatement pstmt = connection.prepareStatement(sql)) {
             pstmt.setString(1, book.getTitle());
             pstmt.setDate(2, java.sql.Date.valueOf(book.getDate()));
-            pstmt.setBoolean(3, book.getIsAvailable());
+            pstmt.setBoolean(3, false);
             pstmt.executeUpdate();
             System.out.println("Ajout du livre effectué");
         } catch (SQLException e) {
